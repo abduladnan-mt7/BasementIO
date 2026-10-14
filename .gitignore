@@ -1,0 +1,17 @@
+# Server audit output: contains hostnames, ports, crontabs; never commit
+inventory-*.txt
+healthcheck-targets.txt
+healthcheck-*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+.vercel
+coverage
+npm-debug.log*
+# Secrets come from the dashboard, never from the image
+.env
+.env.*
+!.env.example

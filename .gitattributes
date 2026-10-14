@@ -1,0 +1,5 @@
+# Scripts run on Linux servers. CRLF line endings break bash ("$'\r': command not found").
+* text=auto eol=lf
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.conf text eol=lf
